@@ -8,7 +8,7 @@
     font-family: 'Poppins', sans-serif;
 }
 
-.popup{
+.popup {
     width: 400px;
     background-color: #fff;
     border-radius: 6px;
@@ -23,31 +23,30 @@
     transition: transform 0.4s, top 0.4s;
 }
 
-.open-popup{
+.open-popup {
     visibility: visible;
-    top: 400%;
-    transform: translate(-50%,-50%) scale(1);
-    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(1);
 }
 
-.popup img{
+.popup img {
     width: 100px;
-    margin-top: -50px ;
+    margin-top: -50px;
     border-radius: 50%;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
-.h2-pop{
+.h2-pop {
     font-size: 38px;
     font-weight: 500;
     margin: 30px 0 10px;
 
 }
 
-.popup button{
+.popup button {
     width: 100%;
     margin-top: 50px;
-    padding: 10px ;
+    padding: 10px;
     background-color: #6fd649;
     color: #fff;
     border: 0;
@@ -58,16 +57,16 @@
     cursor: pointer;
 }
 
-.sign-in{
-    border-radius: 30px ;
+.sign-in {
+    border-radius: 30px;
     border: 0;
     background-color: #fff;
-    padding: 10px 60px ;
+    padding: 10px 60px;
     cursor: pointer;
     outline: none;
     font-size: 22px;
     font-weight: 500;
- 
+
 }
 
 
@@ -214,13 +213,14 @@ nav .fa {
 .you {
     color: white;
     font-size: 80px;
-    
+
     margin: auto 5%;
-    transition:  0.3s;
- 
+    transition: 0.3s;
+
 
 }
-.you:hover{
+
+.you:hover {
     transform: scale(1.1);
     text-shadow: 5px 11PX 8PX black;
 }
@@ -230,13 +230,13 @@ nav .fa {
     font-size: 25px;
     margin: auto 12%;
     transition: transform 0.3s;
-    
+
 
 }
 
-.you-p:hover{
+.you-p:hover {
     transform: scale(1.1);
-    
+
 }
 
 .you-div button {
@@ -253,14 +253,14 @@ nav .fa {
     transition: transform 0.3s;
 }
 
-.you-div button:hover{
+.you-div button:hover {
     transform: scale(1.1);
 }
 
-.you-div button:hover{
+.you-div button:hover {
     background-color: yellow;
     color: black;
-    cursor: pointer; 
+    cursor: pointer;
 }
 
 
@@ -372,7 +372,7 @@ nav .fa {
 #portfolio {
     position: relative;
     box-shadow: 0 -10px 10px rgb(23, 20, 13);
- 
+
 
 }
 
@@ -426,7 +426,7 @@ nav .fa {
     height: 100%;
 }
 
-.sub-title{
+.sub-title {
     text-align: center;
     margin: 3% auto;
     color: black;
@@ -489,10 +489,10 @@ nav .fa {
 /* ------------------- Donation ------------ */
 
 
-.donation-box{
+.donation-box {
     width: 100%;
     height: 80vh;
-    background-color: rgb(187,187,245);
+    background-color: rgb(187, 187, 245);
     color: #fff;
     font-family: sans-serif;
     display: flex;
@@ -501,31 +501,32 @@ nav .fa {
 
 }
 
-.card{
+.card {
     width: 350px;
     height: 500px;
-    box-shadow: 0 0 40px 20px rgba(0,0,0,0.26);
+    box-shadow: 0 0 40px 20px rgba(0, 0, 0, 0.26);
 }
 
-.inner-box{
+.inner-box {
     position: relative;
     width: 100%;
     height: 100%;
 }
 
-.card-front, .card-back{
+.card-front,
+.card-back {
     position: absolute;
     width: 100%;
     height: 100%;
     background-position: center;
     background-size: cover;
-    background-image: linear-gradient(rgba(52, 234, 237, 0.805),rgba(27, 27, 38, 0.8)) , url(money.jpg);
+    background-image: linear-gradient(rgba(52, 234, 237, 0.805), rgba(27, 27, 38, 0.8)), url(money.jpg);
     padding: 55px;
     box-sizing: border-box;
     backface-visibility: hidden;
 }
 
-.card-back{
+.card-back {
     transform: rotateY(180deg);
 }
 
