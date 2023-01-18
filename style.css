@@ -6,7 +6,6 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-    overflow-x: hidden;
 }
 
 .popup{
@@ -89,7 +88,6 @@
 .container {
     padding: 10px 10%;
     box-shadow: 0 5px 10px black;
-
 
 }
 
