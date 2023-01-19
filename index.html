@@ -172,17 +172,55 @@
         </div>
     </div>
 
-    <div class="donation-box">
+    <div class="donation">
 
-        <div class="card">
-            <div class="inner-box">
-                <div class="card-front">
-                    <h2>LOGIN</h2>
-                    <form action="">
-                        <input type="email" class="input-box" placeholder="">
-                    </form>
+        <div class="donate-1">
+            <div class="donate-2">
+                <div class="donate-img">
+
                 </div>
-                <div class="card-back"></div>
+                <div class="donate-form">
+                    <img class="pay" src="pay.png" alt="">
+                    <div class="form-details">
+                        <div class="input-field" id="namefield">
+                            <i class="fa fa-solid fa-user"></i>
+                            <input type="text" class="inp" placeholder="Name">
+    
+                        </div>
+                        <div class="input-field">
+                            <i class="fa fa-solid fa-envelope"></i>
+                            <input type="email" class="inp" placeholder="john@gmail.com">
+    
+                        </div>
+                        <div class="input-field">
+                            <img src="mastercard.png">
+                            <input type="password" class="inp inp-cardnum" placeholder="Card Number">
+    
+                        </div>
+                  
+                        <div class="input-field inp-cvv">
+                            <img src="atm.png" alt="">
+                            <input type="number" class="inp " placeholder="CVV Number">
+    
+                        </div>
+                        <div class="input-field">
+                            <i class="fa fa-solid fa-lock"></i>
+                            <input type="password" class="inp" placeholder="Password">
+    
+                        </div>
+
+                        <hr>
+
+                        <button class="pay-btn">Pay $19.75</button>
+
+
+
+                    </div>
+
+
+                    
+
+                </div>
             </div>
         </div>
 
@@ -194,6 +232,7 @@
         var sidemenu = document.getElementById('sidemenu');
         var body = document.getElementById('body');
         var header = document.getElementById('header');
+        var visible = sidemenu.style.display;
 
         function openmenu() {
             sidemenu.style.right = '0';
@@ -210,6 +249,10 @@
         }
         function closePopup() {
             popup.classList.remove('open-popup');
+        }
+
+        if(visible == 'visible'){
+            sidemenu.style.display = 'none';
         }
 
 
