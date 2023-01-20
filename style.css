@@ -15,7 +15,7 @@
     position: absolute;
     top: 0;
     left: 50%;
-    transform: translate(-50%,-50%) scale(0.1);
+    transform: translate(-50%, -50%) scale(0.1);
     text-align: center;
     padding: 0 30px 30px;
     color: #333;
@@ -490,23 +490,23 @@ nav .fa {
 
 
 
-.donation{
+.donation {
     width: 100%;
     height: 80vh;
     background-color: rgb(227, 151, 176);
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
 }
 
-.donate-1{
+.donate-1 {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.pay-btn{
+.pay-btn {
     width: 100%;
     height: 40px;
     border-radius: 3px;
@@ -519,41 +519,43 @@ nav .fa {
     transition: background 0.3s;
 }
 
-.pay-btn:hover{
+.pay-btn:hover {
     background: #46a046;
 }
-.pay-btn:active{
+
+.pay-btn:active {
     background: #57c757;
 }
 
-.donate-2{
+.donate-2 {
     display: flex;
     align-items: center;
     justify-content: center;
 
 }
 
-.donate-img{
+.donate-img {
     width: 400px;
     height: 600px;
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(hands.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(hands.jpg);
     background-position: center;
     background-size: cover;
 }
 
-.donate-form{
+.donate-form {
     height: 550px;
     width: 400px;
     background: #fff;
- 
+
 }
 
-.pay{
+.pay {
     width: 130px;
     display: block;
     margin: auto;
     margin-top: 12px;
 }
+
 .input-field {
     background-color: #eaeaea;
     margin: 15px 0;
@@ -565,28 +567,29 @@ nav .fa {
     overflow: hidden;
 
 }
+
 .input-field i {
     margin-left: 15px;
     color: #999;
 }
 
-.input-field img{
+.input-field img {
     margin-left: 15px;
     width: 25px;
-    
+
 
 }
 
-.inp-cvv{
+.inp-cvv {
     width: 174px;
 }
 
 
-.form-details{
+.form-details {
     padding: 12px 30px;
 }
 
-.form-details hr{
+.form-details hr {
     text-align: center;
     display: block;
     margin: auto;
@@ -601,7 +604,7 @@ nav .fa {
     padding: 18px 15px;
 }
 
-.inp-cardnum{
+.inp-cardnum {
     padding: 18px 10px;
 
 }
@@ -737,28 +740,29 @@ font-size: 30px;
 
 @media only screen and (max-width:700px) {
 
-    .popup{
+    .popup {
         width: 300px;
     }
 }
 
 @media only screen and (max-width:452px) {
 
-    .donate-img{
+    .donation {
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(hands.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+
+    .donate-img {
         display: none;
     }
-    .donate-form{
-        width: 350px;
+
+    .donate-form {
+
         height: fit-content;
-    }
+        width: 325px;
+        background: linear-gradient(45deg, #5c0000, transparent);
 
-}
-@media only screen and (max-width:452px) {
-
-
-    .donate-form{
-        width: 300px ;
-        
     }
 
 }
